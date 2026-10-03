@@ -11,8 +11,8 @@ android {
         applicationId = "com.volumekeys.tap"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.0.1-release"
+        versionCode = 3
+        versionName = "1.0.2-release"
     }
 
     buildTypes {
