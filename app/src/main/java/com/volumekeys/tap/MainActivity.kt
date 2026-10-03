@@ -72,6 +72,16 @@ class MainActivity : AppCompatActivity() {
         setupFeedbackControls()
         setupAccessibilityStatus()
 
+        // Apply hide-from-recents on app launch
+        if (Config.isCardHidden(this)) {
+            try {
+                val am = getSystemService(Context.ACTIVITY_SERVICE) as android.app.ActivityManager
+                for (task in am.appTasks) {
+                    task.setExcludeFromRecents(true)
+                }
+            } catch (_: Exception) { }
+        }
+
         b.btnKeepAlive.setOnClickListener {
             startActivity(Intent(this, KeepAliveActivity::class.java))
         }

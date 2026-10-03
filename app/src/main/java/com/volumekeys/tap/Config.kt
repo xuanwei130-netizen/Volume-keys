@@ -24,6 +24,7 @@ object Config {
     // ---- Global settings ----
     private const val KEY_CLICK_INTERVAL_MS = "click_interval_ms"
     private const val KEY_SHELL_MODE = "shell_mode"
+    private const val KEY_HIDE_CARD = "hide_card"
 
     const val DEFAULT_CLICK_INTERVAL_MS = 400L
     const val MIN_CLICK_INTERVAL_MS = 100L
@@ -94,5 +95,13 @@ object Config {
 
     fun setShellMode(ctx: Context, mode: ShellMode) {
         edit(ctx).putString(KEY_SHELL_MODE, mode.value).apply()
+    }
+
+    // ---- Global: hide background card ----
+    fun isCardHidden(ctx: Context): Boolean =
+        prefs(ctx).getBoolean(KEY_HIDE_CARD, false)
+
+    fun setCardHidden(ctx: Context, hidden: Boolean) {
+        edit(ctx).putBoolean(KEY_HIDE_CARD, hidden).apply()
     }
 }

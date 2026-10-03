@@ -38,6 +38,27 @@ class KeepAliveActivity : AppCompatActivity() {
         b.btnRequestAutostart.setOnClickListener { requestAutostart() }
         b.btnRequestBattery.setOnClickListener { requestBatteryOptimization() }
         b.btnGotoRecent.setOnClickListener { openRecentTasks() }
+
+        // Hide background card
+        b.switchHideCard.isChecked = Config.isCardHidden(this)
+        applyHideCardState(b.switchHideCard.isChecked)
+        b.switchHideCard.setOnCheckedChangeListener { _, isChecked ->
+            Config.setCardHidden(this, isChecked)
+            applyHideCardState(isChecked)
+            val msg = if (isChecked) R.string.toast_card_hidden else R.string.toast_card_shown
+            Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun applyHideCardState(hidden: Boolean) {
+        try {
+            val am = getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
+            for (task in am.appTasks) {
+                task.setExcludeFromRecents(hidden)
+            }
+        } catch (e: Exception) {
+            android.util.Log.w("KeepAlive", "setExcludeFromRecents failed", e)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
