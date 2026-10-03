@@ -32,6 +32,10 @@ class AboutActivity : AppCompatActivity() {
         b.cardCheckUpdate.setOnClickListener {
             checkUpdate(versionName)
         }
+
+        b.cardFindMe.setOnClickListener {
+            openUrl("https://www.coolapk.com/u/34727959")
+        }
     }
 
     private fun checkUpdate(currentVersion: String) {

@@ -59,11 +59,26 @@
         <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
         <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
         <item name="materialButtonOutlinedStyle">@style/Widget.Material3.Button.OutlinedButton</item>
-        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+        <item name="textInputStyle">@style/Widget.VolKeyHook.TextInputLayout.OutlinedBox</item>
         <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
 
         <!-- App bar should be transparent so content scrolls under it -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom TextInputLayout styles with 12dp box corner radius -->
+    <style name="Widget.VolKeyHook.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <style name="Widget.VolKeyHook.TextInputLayout.OutlinedBox.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
     </style>
 </resources>
