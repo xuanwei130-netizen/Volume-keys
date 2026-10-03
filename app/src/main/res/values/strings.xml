@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音量键双击</string>
+    <string name="accessibility_desc">拦截音量键，实现双击触发自定义动作（打开应用、执行Shell、切换铃声模式），单次点击正常调节音量。</string>
+    <string name="title_pick_app">选择应用</string>
+
+    <!-- MainActivity -->
+    <string name="main_header">音量键双击动作设置</string>
+    <string name="main_hint">本应用通过无障碍服务拦截音量键。单次点击正常调节音量，双击触发自定义动作。音量上、下分别独立设置。</string>
+
+    <!-- Accessibility service status -->
+    <string name="service_enabled">无障碍服务：已开启</string>
+    <string name="service_enabled_hint">服务运行中，按键拦截已生效。</string>
+    <string name="service_disabled">无障碍服务：未开启</string>
+    <string name="service_disabled_hint">请点击下方按钮，在系统设置中开启本应用的无障碍服务，否则按键拦截不会生效。</string>
+    <string name="btn_open_accessibility">去开启无障碍服务</string>
+    <string name="btn_keep_alive">后台保活</string>
+    <string name="section_vol_up">音量上 · 双击动作</string>
+    <string name="section_vol_down">音量下 · 双击动作</string>
+    <string name="label_select_app">已选应用</string>
+    <string name="no_app_selected">未选择应用</string>
+    <string name="btn_choose_app">选择应用</string>
+    <string name="label_shell_command">Shell 指令</string>
+    <string name="hint_shell">例：input keyevent 26</string>
+    <string name="btn_test_shell">测试运行</string>
+    <string name="label_audio_mode">铃声模式</string>
+    <string name="main_footer">提示：Shell 执行模式可在设置中切换（Root 或 Shizuku）。铃声模式需开启无障碍服务。</string>
+    <string name="toast_app_selected">已选择：%1$s</string>
+
+    <!-- Double-click interval -->
+    <string name="section_interval">双击判定时间</string>
+    <string name="hint_interval">两次按键间隔小于此值判定为双击。范围 100 ~ 2000 毫秒，默认 400ms。</string>
+    <string name="hint_interval_input">400</string>
+    <string name="unit_ms">ms</string>
+    <string name="btn_save_interval">保存</string>
+    <string name="btn_reset_interval">重置</string>
+    <string name="toast_interval_saved">判定时间已保存为 %1$d ms</string>
+    <string name="toast_interval_reset">判定时间已重置为默认 %1$d ms</string>
+    <string name="toast_interval_invalid">请输入 100 ~ 2000 之间的数值</string>
+
+    <!-- Feedback log -->
+    <string name="section_feedback">拦截反馈</string>
+    <string name="hint_feedback">按下音量键时实时显示拦截事件，用于确认模块是否生效。</string>
+    <string name="btn_clear">清空</string>
+    <string name="feedback_empty">暂无按键记录…\n按下音量键即可在此查看拦截反馈。</string>
+    <string name="feedback_single">单击 · 音量%1$s → 放行（调节音量）</string>
+    <string name="feedback_double">双击 · 音量%1$s → 拦截并执行动作</string>
+    <string name="feedback_key_up">上</string>
+    <string name="feedback_key_down">下</string>
+
+    <!-- AppPicker -->
+    <string name="search_hint">搜索应用名 / 包名</string>
+    <string name="empty_apps">没有匹配的应用</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- KeepAliveActivity -->
+    <string name="title_keep_alive">后台保活设置</string>
+    <string name="keep_alive_hint">为保证音量键双击功能持续生效，请依次完成以下设置。</string>
+
+    <string name="section_autostart">自启动权限</string>
+    <string name="hint_autostart">允许应用在系统启动时自动运行，防止被系统清理。</string>
+    <string name="btn_request_autostart">申请自启动权限</string>
+
+    <string name="section_battery">忽略电池优化</string>
+    <string name="hint_battery">允许应用在后台持续运行，避免被电池优化杀死。</string>
+    <string name="btn_request_battery">申请忽略电池优化</string>
+
+    <string name="section_lock">锁定后台</string>
+    <string name="hint_lock">请在系统最近任务界面，将本应用向下拖动锁定，防止被一键清理。\n已完成自启动和电池优化后，建议执行此操作。</string>
+    <string name="btn_goto_recent">打开最近任务</string>
+    <string name="toast_lock_hint">请在最近任务界面将本应用锁定</string>
+
+    <string name="status_granted">已获得</string>
+    <string name="status_not_granted">未获得</string>
+    <string name="toast_autostart_granted">自启动权限已获得</string>
+    <string name="toast_battery_granted">电池优化已忽略</string>
+    <string name="toast_need_manual">请在打开的页面中手动开启</string>
+
+    <!-- Overflow menu -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+
+    <!-- SettingsActivity -->
+    <string name="section_shell_mode">Shell 执行权限</string>
+    <string name="hint_shell_mode">选择执行 Shell 指令时使用的权限方式。Root 需设备已 root；Shizuku 需安装并激活 Shizuku。</string>
+    <string name="label_shell_mode">执行模式</string>
+    <string name="shell_mode_root">Root (su)</string>
+    <string name="shell_mode_shizuku">Shizuku</string>
+    <string name="section_shizuku_status">Shizuku 状态</string>
+    <string name="shizuku_granted">Shizuku 权限已授予，可以正常执行。</string>
+    <string name="shizuku_not_granted">Shizuku 权限未授予，请点击下方按钮授权。</string>
+    <string name="shizuku_not_running">Shizuku 未运行，请先安装并激活 Shizuku 服务。</string>
+    <string name="btn_shizuku_request">请求 Shizuku 权限</string>
+    <string name="btn_open_shizuku">打开 Shizuku</string>
+
+    <!-- AboutActivity -->
+    <string name="about_source">查看源代码</string>
+    <string name="about_source_subtitle">在 GitHub 上查看源代码</string>
+    <string name="version_format">v%1$s</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="action_types">
+        <item>无</item>
+        <item>打开应用</item>
+        <item>执行 Shell</item>
+        <item>铃声模式</item>
+    </string-array>
+    <string-array name="audio_modes">
+        <item>静音（小米）</item>
+        <item>响铃</item>
+    </string-array>
+    <color name="background">#F0F0F4</color>
+    <color name="error">#BA1A1A</color>
+    <color name="errorContainer">#FFDAD6</color>
+    <color name="onBackground">#1A1A1A</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="onErrorContainer">#410002</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onPrimaryContainer">#0D3A66</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onSecondaryContainer">#2C3340</color>
+    <color name="onSurface">#1A1A1A</color>
+    <color name="onSurfaceVariant">#757575</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="onTertiaryContainer">#3A0B52</color>
+    <color name="outline">#8E8E93</color>
+    <color name="outlineVariant">#E5E5EA</color>
+    <color name="primary">#1A5F9E</color>
+    <color name="primaryContainer">#D4E6F7</color>
+    <color name="secondary">#5A6578</color>
+    <color name="secondaryContainer">#E8EDF3</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surfaceContainer">#F2F2F6</color>
+    <color name="surfaceContainerHigh">#ECECF0</color>
+    <color name="surfaceContainerHighest">#E6E6EB</color>
+    <color name="surfaceContainerLow">#F6F6FA</color>
+    <color name="surfaceContainerLowest">#FFFFFF</color>
+    <color name="surfaceVariant">#E5E5EA</color>
+    <color name="tertiary">#7B1FA2</color>
+    <color name="tertiaryContainer">#F3E8F9</color>
+    <string name="about_source">查看源代码</string>
+    <string name="about_source_subtitle">在 GitHub 上查看源代码</string>
+    <string name="accessibility_desc">拦截音量键，实现双击触发自定义动作（打开应用、执行Shell、切换铃声模式），单次点击正常调节音量。</string>
+    <string name="app_name">音量键双击</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_choose_app">选择应用</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_goto_recent">打开最近任务</string>
+    <string name="btn_keep_alive">后台保活</string>
+    <string name="btn_open_accessibility">去开启无障碍服务</string>
+    <string name="btn_open_shizuku">打开 Shizuku</string>
+    <string name="btn_request_autostart">申请自启动权限</string>
+    <string name="btn_request_battery">申请忽略电池优化</string>
+    <string name="btn_reset_interval">重置</string>
+    <string name="btn_save_interval">保存</string>
+    <string name="btn_shizuku_request">请求 Shizuku 权限</string>
+    <string name="btn_test_shell">测试运行</string>
+    <string name="empty_apps">没有匹配的应用</string>
+    <string name="feedback_double">双击 · 音量%1$s → 拦截并执行动作</string>
+    <string name="feedback_empty">暂无按键记录…\n按下音量键即可在此查看拦截反馈。</string>
+    <string name="feedback_key_down">下</string>
+    <string name="feedback_key_up">上</string>
+    <string name="feedback_single">单击 · 音量%1$s → 放行（调节音量）</string>
+    <string name="hint_autostart">允许应用在系统启动时自动运行，防止被系统清理。</string>
+    <string name="hint_battery">允许应用在后台持续运行，避免被电池优化杀死。</string>
+    <string name="hint_feedback">按下音量键时实时显示拦截事件，用于确认模块是否生效。</string>
+    <string name="hint_interval">两次按键间隔小于此值判定为双击。范围 100 ~ 2000 毫秒，默认 400ms。</string>
+    <string name="hint_interval_input">400</string>
+    <string name="hint_lock">请在系统最近任务界面，将本应用向下拖动锁定，防止被一键清理。\n已完成自启动和电池优化后，建议执行此操作。</string>
+    <string name="hint_shell">例：input keyevent 26</string>
+    <string name="hint_shell_mode">选择执行 Shell 指令时使用的权限方式。Root 需设备已 root；Shizuku 需安装并激活 Shizuku。</string>
+    <string name="keep_alive_hint">为保证音量键双击功能持续生效，请依次完成以下设置。</string>
+    <string name="label_audio_mode">铃声模式</string>
+    <string name="label_select_app">已选应用</string>
+    <string name="label_shell_command">Shell 指令</string>
+    <string name="label_shell_mode">执行模式</string>
+    <string name="main_footer">提示：Shell 执行模式可在设置中切换（Root 或 Shizuku）。铃声模式需开启无障碍服务。</string>
+    <string name="main_header">音量键双击动作设置</string>
+    <string name="main_hint">本应用通过无障碍服务拦截音量键。单次点击正常调节音量，双击触发自定义动作。音量上、下分别独立设置。</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_settings">设置</string>
+    <string name="no_app_selected">未选择应用</string>
+    <string name="search_hint">搜索应用名 / 包名</string>
+    <string name="section_autostart">自启动权限</string>
+    <string name="section_battery">忽略电池优化</string>
+    <string name="section_feedback">拦截反馈</string>
+    <string name="section_interval">双击判定时间</string>
+    <string name="section_lock">锁定后台</string>
+    <string name="section_shell_mode">Shell 执行权限</string>
+    <string name="section_shizuku_status">Shizuku 状态</string>
+    <string name="section_vol_down">音量下 · 双击动作</string>
+    <string name="section_vol_up">音量上 · 双击动作</string>
+    <string name="service_disabled">无障碍服务：未开启</string>
+    <string name="service_disabled_hint">请点击下方按钮，在系统设置中开启本应用的无障碍服务，否则按键拦截不会生效。</string>
+    <string name="service_enabled">无障碍服务：已开启</string>
+    <string name="service_enabled_hint">服务运行中，按键拦截已生效。</string>
+    <string name="shell_mode_root">Root (su)</string>
+    <string name="shell_mode_shizuku">Shizuku</string>
+    <string name="shizuku_granted">Shizuku 权限已授予，可以正常执行。</string>
+    <string name="shizuku_not_granted">Shizuku 权限未授予，请点击下方按钮授权。</string>
+    <string name="shizuku_not_running">Shizuku 未运行，请先安装并激活 Shizuku 服务。</string>
+    <string name="status_granted">已获得</string>
+    <string name="status_not_granted">未获得</string>
+    <string name="title_keep_alive">后台保活设置</string>
+    <string name="title_pick_app">选择应用</string>
+    <string name="toast_app_selected">已选择：%1$s</string>
+    <string name="toast_autostart_granted">自启动权限已获得</string>
+    <string name="toast_battery_granted">电池优化已忽略</string>
+    <string name="toast_interval_invalid">请输入 100 ~ 2000 之间的数值</string>
+    <string name="toast_interval_reset">判定时间已重置为默认 %1$d ms</string>
+    <string name="toast_interval_saved">判定时间已保存为 %1$d ms</string>
+    <string name="toast_lock_hint">请在最近任务界面将本应用锁定</string>
+    <string name="toast_need_manual">请在打开的页面中手动开启</string>
+    <string name="unit_ms">ms</string>
+    <string name="version_format">v%1$s</string>
+    <style name="Theme.VolKeyHook" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/onTertiaryContainer</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorErrorContainer">@color/errorContainer</item>
+        <item name="colorOnErrorContainer">@color/onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+
+        <item name="colorSurfaceContainerHighest">@color/surfaceContainerHighest</item>
+        <item name="colorSurfaceContainerHigh">@color/surfaceContainerHigh</item>
+        <item name="colorSurfaceContainer">@color/surfaceContainer</item>
+        <item name="colorSurfaceContainerLow">@color/surfaceContainerLow</item>
+        <item name="colorSurfaceContainerLowest">@color/surfaceContainerLowest</item>
+
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outlineVariant</item>
+
+        
+        <item name="colorPrimaryVariant">@color/primaryContainer</item>
+        <item name="colorSecondaryVariant">@color/secondaryContainer</item>
+
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">?attr/isLightTheme</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Material3.Button.OutlinedButton</item>
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
+
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

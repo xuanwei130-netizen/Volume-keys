@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/xml_accessibility_service_config.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_info.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_activity_settings.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.volumekeys.tap.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.volumekeys.tap.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_activity_app_picker.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/activity_app_picker.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_code.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_code.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_item_app.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/item_app.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_launcher.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/menu_menu_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_chevron_right.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.volumekeys.tap.app-debug-32:/drawable_ic_launcher.xml.flat",
+        "source": "com.volumekeys.tap.app-main-34:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_settings.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_activity_about.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/activity_about.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.volumekeys.tap.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.volumekeys.tap.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable_ic_arrow_back.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/layout_activity_keep_alive.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/layout/activity_keep_alive.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-debug-32:/drawable-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.volumekeys.tap.app-main-34:/drawable-anydpi-v26/ic_launcher.xml"
+    }
+]

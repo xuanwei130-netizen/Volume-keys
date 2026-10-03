@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Material 3 color scheme — LIGHT.
+        Style ref: module-manager screenshot (MD3 + iOS hybrid).
+        Deep blue primary on light-grey background with pure-white cards.
+    -->
+
+    <!-- Primary -->
+    <color name="primary">#1A5F9E</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#D4E6F7</color>
+    <color name="onPrimaryContainer">#0D3A66</color>
+
+    <!-- Secondary -->
+    <color name="secondary">#5A6578</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#E8EDF3</color>
+    <color name="onSecondaryContainer">#2C3340</color>
+
+    <!-- Tertiary -->
+    <color name="tertiary">#7B1FA2</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="tertiaryContainer">#F3E8F9</color>
+    <color name="onTertiaryContainer">#3A0B52</color>
+
+    <!-- Error -->
+    <color name="error">#BA1A1A</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#FFDAD6</color>
+    <color name="onErrorContainer">#410002</color>
+
+    <!-- Surface / background -->
+    <color name="background">#F0F0F4</color>
+    <color name="onBackground">#1A1A1A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#1A1A1A</color>
+    <color name="surfaceVariant">#E5E5EA</color>
+    <color name="onSurfaceVariant">#757575</color>
+    <color name="surfaceContainerHighest">#E6E6EB</color>
+    <color name="surfaceContainerHigh">#ECECF0</color>
+    <color name="surfaceContainer">#F2F2F6</color>
+    <color name="surfaceContainerLow">#F6F6FA</color>
+    <color name="surfaceContainerLowest">#FFFFFF</color>
+
+    <!-- Outline -->
+    <color name="outline">#8E8E93</color>
+    <color name="outlineVariant">#E5E5EA</color>
+</resources>

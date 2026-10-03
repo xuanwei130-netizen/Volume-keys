@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Action type dropdown (order matches MainActivity.positionForAction). -->
+    <string-array name="action_types">
+        <item>无</item>
+        <item>打开应用</item>
+        <item>执行 Shell</item>
+        <item>铃声模式</item>
+    </string-array>
+
+    <!-- Audio mode dropdown — 震动已移除。
+         静音（小米）= 用震动常量实现静音；响铃 = NORMAL。
+         Order matches MainActivity.positionForAudioMode. -->
+    <string-array name="audio_modes">
+        <item>静音（小米）</item>
+        <item>响铃</item>
+    </string-array>
+</resources>
