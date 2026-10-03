@@ -13,12 +13,12 @@
 - **拦截反馈日志** — 实时显示按键拦截事件，确认模块生效
 - **后台保活引导** — 自启动权限、电池优化忽略、后台锁定一站式设置
 - **Shizuku 支持** — Shell 指令可通过 Root 或 Shizuku 执行，在设置中切换
-- **Material 3 UI** — 遵循 [m3.material.io](https://m3.material.io/) 规范，支持深色 / 浅色模式
 
 ## 截图
 
 <div style="display:flex;gap:8px;flex-wrap:wrap">
-  <img src="app/src/main/res/drawable/ic_launcher_foreground.xml" width="120" />
+  <img src="docs/screenshot_main.jpg" width="280" />
+  <img src="docs/screenshot_about.jpg" width="280" />
 </div>
 
 ## 下载

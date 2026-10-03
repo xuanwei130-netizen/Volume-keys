@@ -21,7 +21,7 @@ class AboutActivity : AppCompatActivity() {
         b.versionText.text = getString(R.string.version_format, versionName)
 
         b.cardSource.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.coolapk.com"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/xuanwei130-netizen/Volume-keys"))
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             runCatching { startActivity(intent) }
         }
