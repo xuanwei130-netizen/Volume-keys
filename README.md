@@ -14,13 +14,6 @@
 - **后台保活引导** — 自启动权限、电池优化忽略、后台锁定一站式设置
 - **Shizuku 支持** — Shell 指令可通过 Root 或 Shizuku 执行，在设置中切换
 
-## 截图
-
-<div style="display:flex;gap:8px;flex-wrap:wrap">
-  <img src="docs/screenshot_main.jpg" width="280" />
-  <img src="docs/screenshot_about.jpg" width="280" />
-</div>
-
 ## 下载
 
 从 [Releases](../../releases) 页面获取最新 APK。
