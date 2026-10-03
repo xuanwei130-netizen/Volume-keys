@@ -61,7 +61,6 @@
 | 最低系统 | Android 8.0 (API 26) |
 | 目标系统 | Android 14 (API 34) |
 | 语言 | Kotlin |
-| UI | Material 3 (Material Design 3) |
 | 依赖 | Shizuku API v13.1.5 |
 
 ## 构建
